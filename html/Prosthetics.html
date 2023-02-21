@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prosthetics</title>
+    <link rel="stylesheet" href="../css/Prosthetics.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="logo-container">
+        <img class="top-logo" src="../images/Logo.jpg" alt="">
+        </div>
+    <div>
+        <div class="top-menu">
+            <a href="../html/home.html">Home</a>
+            <a href="../html/Prosthetics.html">Prosthetics</a>
+            
+        </div>
+
+        <div class="pros-card-container" >
+            <h1>Shuriken
+                <button id="show1" onclick="toggleDiv(id1,show1,hide1,12)" class="show-hide">Show</button>
+                <button id="hide1" onclick="toggleDiv(id1,show1,hide1,0)" style="display:none ;" class="show-hide">Hide</button>
+            </h1>
+            <div id="id1" style="display: none;" class="hidden">
+            <div class="pros-card" >
+                <h2>Loaded Shuriken</h2>  
+                <img src="../images/Prosthetics/Shuriken/simple.png" alt="" class="image-right FadeInLeft">
+                <p>A Shuriken Wheel Prosthetic Tool, fitted to the Shinobi Prosthetic. Costs Spirit Emblems to use.</p>
+                <p>Pull a shuriken loaded into the wheel and launch it at a target in a single, flowing motion.</p>
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>   
+            
+            <div class="pros-card">
+                <h2>Spinning Shuriken</h2>  
+                <img src="../images/Prosthetics/Shuriken/spinning.png" alt="" class="image-left">
+                <p> An enhanced Shuriken that can be empowered with rotational energy. Costs Spirit Emblems to use.</p>
+                <p>Damage an enemy's Vitality and Posture, and does huge damage to jumping enemies. Taking a moment to further bend the spring and build rotational
+                     energy will cause the blade to rotate after landing, damaging the enemy multiple times on hit.</p>
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>    
+
+            <div class="pros-card">
+                <h2>Phantom Kunai</h2>  
+                <img src="../images/Prosthetics/Shuriken/phantom.png" alt="" class="image-right">
+                <p>Lady Butterfly's kunai, fitted into the shuriken wheel. Costs Spirit Emblems to use.</p>
+                <p>Creates a special sound when thrown, which causes phantom butterflies to follow the path of the kunai.</p>               
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>    
+
+            
+
+            <div class="pros-card">
+                <h2>Gouging Top</h2>  
+                <img src="../images/Prosthetics/Shuriken/gouging.png" alt="" class="image-left">
+                <p> An enhanced shuriken that pierces enemies with its sharp blades. Costs Spirit Emblems to use.</p>
+                <p>These piercing blades retain momentum after landing, and will damage an enemy's Vitality and Posture, even if guarded. Taking a moment to further bend the spring</p>               
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>    
+
+            <div class="pros-card">
+                <h2>Sen Throw</h2>  
+                <img src="../images/Prosthetics/Shuriken/sen.png" alt="" class="image-right">
+                <p>A Prosthetic Tool that shoots loaded coin bundles. Costs sen and Spirit Emblems to use</p>
+                <p> While it lacks a shuriken's range, it inflicts far more damage, as the coins hit multiple times. </p>                
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>    
+
+            <div class="pros-card">
+                <h2>Lazulite Shuriken</h2>  
+                <img src="../images/Prosthetics/Shuriken/lazulite.png" alt="" class="image-left">
+                <p>Shuriken blessed with the favor of the Fountainhead Lapis Lazuli. Costs Spirit Emblems to use.</p>
+                <p>Its piercing edge heavily damages Vitality, and damages Vitality and Posture even if guarded. These blades do not slow down, even after striking an enemy.</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>    
+        </div>
+        </div>
+
+        <div class="pros-card-container">
+            <h1>Axe
+                <button id="show2" onclick="toggleDiv(id2,show2,hide2,12)" class="show-hide">Show</button>
+                <button id="hide2" onclick="toggleDiv(id2,show2,hide2,0)" style="display:none ;" class="show-hide">Hide</button>
+            </h1>
+            <div id="id2" style="display: none;" class="hidden">
+            <div class="pros-card">
+                <h2>Loaded Axe</h2>  
+                <img src="../images/Prosthetics/Axe/simple.png" alt="" class="image-left">
+                <p> A Prosthetic Tool loaded with a heavy Shinobi Axe. Costs Spirit Emblems to use</p>
+                <p>One strike can easily turn a wooden shield into splinters or shred an enemy's posture.The strength of the Loaded Axe lies in its heft.</p>       
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>    
+            
+            <div class="pros-card">
+                <h2>Spring Loaded Axe</h2>  
+                <img src="../images/Prosthetics/Axe/spring.png" alt="" class="image-right">
+                <p>A Loaded Axe reinforced with a spring mechanism. Costs Spirit Emblems to use.</p>
+                <p>The strength of the Loaded Axe lies in its heft. The weight allows one to shrug off incoming attacks, and can easily turn a wooden shield into splinters.</p>       
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>    
+
+            <div class="pros-card">
+                <h2>Sparking Axe</h2>  
+                <img src="../images/Prosthetics/Axe/sparking.png" alt="" class="image-left">
+                <p>A loaded Axe with an attached percussion hammer to create flame. Costs Spirit Emblems to use.</p>
+                <p>Metes out attacks bathed in flame from the axe's blade. Hitting the sparking percussion hammer causes a violent eruption of flames and increases the 
+                    effective area of the attack.</p>       
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>    
+
+            <div class="pros-card">
+                <h2>Lazulite Axe</h2>  
+                <img src="../images/Prosthetics/Axe/lazulite.png" alt="" class="image-right">
+                <p>A Loaded Axe blessed with the favor of the Fountainhead Lapis Lazuli. Costs Spirit Emblems to use.</p>
+                <p>The hefty lazulite blade inflicts damage even on guarding enemies. The sound of the lapis lazuli blade striking home creates a powerful reverberation capable 
+                    of dispelling enemy illusions.</p>       
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>    
+        </div>
+
+        </div>
+
+        <div class="pros-card-container">
+            <h1>Fire Cracker
+                <button id="show3" onclick="toggleDiv(id3,show3,hide3,12)" class="show-hide">Show</button>
+                <button id="hide3" onclick="toggleDiv(id3,show3,hide3,0)" style="display:none ;" class="show-hide">Hide</button>
+            </h1>
+            <div id="id3" style="display: none;" class="hidden">
+            <div class="pros-card">
+                <h2>Shinobi Firecracker</h2>  
+                <img src="../images/Prosthetics/Fire Cracker/simple.png" alt="" class="image-left">
+                <p> A Prosthetic Tool fitted with Robert's firecrackers. Costs Spirit Emblems.</p>
+                <p>Unleashes an explosive flash that briefly blinds foes and inflicts Posture damage on beast-type enemies. Has a wide, frontward field of effect that can impact multiple foes at once.</p>       
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>    
+            
+            <div class="pros-card">
+                <h2>Long Spark</h2>  
+                <img src="../images/Prosthetics/Fire Cracker/long.png" alt="" class="image-right">
+                <p>An upgraded Firecracker using compound gunpowder. Costs Spirit Emblems to use.</p>
+                <p>Compounded gunpowder is said to have a long spark, and by increasing the proportion of Black Gunpowder the effect can be prolonged for longer than the average Firecracker.</p>       
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>    
+
+            <div class="pros-card">
+                <h2>Spring Loaded Firecracker</h2>  
+                <img src="../images/Prosthetics/Fire Cracker/spring.png" alt="" class="image-left">
+                <p>A Firecracker upgraded with a spring mechanism. Costs Spirit Emblems to use.</p>
+                <p>Unleashes a loud explosion and bright flash which causes foes to recoil and inflicts Posture damage on beast-type enemies.</p>       
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>    
+
+            <div class="pros-card">
+                <h2>Purple Fume Spark</h2>  
+                <img src="../images/Prosthetics/Fire Cracker/purple.png" alt="" class="image-right">
+                <p>An upgraded Firecracker that uses a purple, smoke-emitting compound gunpowder.</p>
+                <p>Enemies blinded by the blast take slightly more Vitality and Posture damage for a brief period of time.</p>       
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>    
+            </div>
+        </div>
+        
+        <div class="pros-card-container">
+            <h1>Flame Vent
+                <button id="show4" onclick="toggleDiv(id4,show4,hide4,12)" class="show-hide">Show</button>
+                <button id="hide4" onclick="toggleDiv(id4,show4,hide4,0)" style="display:none ;" class="show-hide">Hide</button>
+            </h1>
+            <div id="id4" style="display: none;" class="hidden">
+            <div class="pros-card">
+                <h2>Flame Vent</h2>  
+                <img src="../images/Prosthetics/Flame Vent/simple.png" alt="" class="image-left">
+                <p> A Prosthetic Tool made from a loaded Flame Barrel. Costs Spirit Emblems to use.</p>
+                <p>Deals fire damage to enemies via a short-range blast of fire while also inflicting Burn status.</p>       
+                <div class="emblems">Spirit Emblem Cost: 3</div>
+            </div>
+
+            <div class="pros-card">
+                <h2>Spring loaded Flame Vent</h2>  
+                <img src="../images/Prosthetics/Flame Vent/spring.png" alt="" class="image-right">
+                <p>A Flame Barrel fitted with a gunpowder-loaded mechanism.</p>
+                <p>he spring mechanism can also be charged to release a massive blast of flames and hot air, sending opponents flying.</p>       
+                <div class="emblems">Spirit Emblem Cost: 3</div>
+            </div>   
+
+            <div class="pros-card">
+                <h2>Okinaga's Flame Vent</h2>  
+                <img src="../images/Prosthetics/Flame Vent/okinaga.png" alt="" class="image-left">
+                <p> A barrel containing smoldering resin that acts as an explosive catalyst. Costs Spirit Emblems to use.</p>
+                <p>It is able to maintain a continuous stream of flames due to the smoldering resin inside of the tube mechanism.</p>       
+                <div class="emblems">Spirit Emblem Cost: 3</div>
+            </div>   
+
+            <div class="pros-card">
+                <h2>Lazulite Sacred Flame</h2>  
+                <img src="../images/Prosthetics/Flame Vent/lazulite.png" alt="" class="image-right">
+                <p>A Flame Barrel blessed with the favor of the Fountainhead Lapis Lazuli. Costs Spirit Emblems to use.</p>
+                <p>Damages even apparitions with its blazing purple flame. The flame does not, however, inflict Burn status abnormality.</p>       
+                <div class="emblems">Spirit Emblem Cost: 3</div>
+            </div>   
+        </div>
+        </div>
+
+        <div class="pros-card-container">
+            <h1>Mist Raven
+                <button id="show5" onclick="toggleDiv(id5,show5,hide5,12)" class="show-hide">Show</button>
+                <button id="hide5" onclick="toggleDiv(id5,show5,hide5,0)" style="display:none ;" class="show-hide">Hide</button>
+            </h1>
+            <div id="id5" style="display: none;" class="hidden">
+            <div class="pros-card">
+                <h2>Mist Raven</h2>  
+                <img src="../images/Prosthetics/Mist Raven/simple.png" alt="" class="image-left">
+                <p>A Prosthetic Tool loaded with the feather of a Mist Raven. Costs Spirit Emblems to use.
+                    When attacked in the assumed stance, disappear like the mist and move away.</p>
+                <p>Once you think you've caught one, all that will remain is feathers.
+                    That is the mark of a true Mist Raven.</p>       
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>              
+            
+            <div class="pros-card">
+                <h2>Aged Feather Mist Raven</h2>  
+                <img src="../images/Prosthetics/Mist Raven/aged.png" alt="" class="image-right">
+                <p>Disappear like the mist and move away. Can be performed not only from the assumed stance, but also after taking damage.</p>
+                <p>The slight notches in the tips of the feathers give the appearance of an old Mist Raven. They are there to allow one to dissolve into the mist even more easily.</p>       
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>   
+
+            <div class="pros-card">
+                <h2>Great Feather Mist Raven</h2>  
+                <img src="../images/Prosthetics/Mist Raven/great.png" alt="" class="image-left">
+                <p>Disappear and displace, like the mist. Can be performed from both the assumed stance and after taking damage. </p>
+                <p>Dyed red to resemble the Great Mist Raven, the feathers vanish in a scorching wake. The great raven is a god of the land, and the touch of gods is to be feared.</p>       
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>   
+        </div>
+        </div>
+
+        <div class="pros-card-container">
+            <h1>Umbrella
+                <button id="show6" onclick="toggleDiv(id6,show6,hide6,12)" class="show-hide">Show</button>
+                <button id="hide6" onclick="toggleDiv(id6,show6,hide6,0)" style="display:none ;" class="show-hide">Hide</button>
+            </h1>
+            <div id="id6" style="display: none;" class="hidden">
+            <div class="pros-card">
+                <h2>Loaded Umbrella</h2>  
+                <img src="../images/Prosthetics/Umbrella/simple.png" alt="" class="image-left">
+                <p>A Prosthetic Tool created by fitting an indestructible Iron-ribbed Umbrella to the Arm. Costs Spirit Emblems to use.</p>
+                <p>When spread open, it will protect against attacks from all directions. Hold it out while moving to protect from light attacks.</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>            
+
+            
+            <div class="pros-card">
+                <h2>Loaded Umbrella - Magnet</h2>  
+                <img src="../images/Prosthetics/Umbrella/magnet.png" alt="" class="image-right">
+                <p>When spread open, it will protect against attacks from all directions. Hold it out while moving to protect from light attacks.</p>
+                <p>Has a tempered magnetic shaft that makes it nearly unbreakable. Enemy attacks can be deflected by spinning the open umbrella.</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>   
+
+            
+            <div class="pros-card">
+                <h2>Phoenix's Lilac Umbrella</h2>  
+                <img src="../images/Prosthetics/Umbrella/phoenix.png" alt="" class="image-left">
+                <p>When spread open, it will protect against attacks from all directions. Hold it out while moving to protect from light attacks.</p>
+                <p>The blessings of the phoenix fill the umbrella, preventing damage from apparition-type enemies.</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>   
+
+            
+            <div class="pros-card">
+                <h2>Suzaku's Lotus Umbrella</h2>  
+                <img src="../images/Prosthetics/Umbrella/lotus.png" alt="" class="image-right">
+                <p>When spread open, it will protect against attacks from all directions. Hold it out while moving to protect from light attacks.</p>
+                <p>The blessing of the vermilion bird prevents damage from fire-based attacks, and also prevents buildup of "Burn" status.</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>   
+            </div>
+        </div>
+
+        <div class="pros-card-container">
+            <h1>Spear
+                <button id="show7" onclick="toggleDiv(id7,show7,hide7,12)" class="show-hide">Show</button>
+                <button id="hide7" onclick="toggleDiv(id7,show7,hide7,0)" style="display:none ;" class="show-hide">Hide</button>
+            </h1>
+            <div id="id7" style="display: none;" class="hidden">
+            <div class="pros-card">
+                <h2>Loaded Spear</h2>  
+                <img src="../images/Prosthetics/Spear/simple.png" alt="" class="image-left">
+                <p> A Prosthetic Tool loaded with Gyoubu's Broken Horn. Costs Spirit Emblems to use.</p>
+                <p>nleash far-reaching thrust attacks. Lighter enemies struck by the spear may be dragged towards the wielder.</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>   
+            
+            <div class="pros-card">
+                <h2>Loaded Spear Thrust Type</h2>  
+                <img src="../images/Prosthetics/Spear/thrust.png" alt="" class="image-right">
+                <p>Unleash far-reaching thrust attacks. Lighter enemies struck by the spear may be dragged towards the wielder. Can also tear poorly-fitting armor from heavier foes.</p>
+                <p>Store energy in the spring mechanism and use its momentum for successive and relentless thrust attacks.</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>   
+
+            <div class="pros-card">
+                <h2>Loaded Spear Cleave Type</h2>  
+                <img src="../images/Prosthetics/Spear/cleave.png" alt="" class="image-left">
+                <p>Unleash far-reaching thrust attacks. Lighter enemies struck by the spear may be dragged towards the wielder. Can also tear poorly-fitting armor from heavier foes.</p>
+                <p>Store energy in the spring mechanism for a powerful cleaving attack.</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>   
+
+            <div class="pros-card">
+                <h2>Spiral Spear</h2>  
+                <img src="../images/Prosthetics/Spear/spiral.png" alt="" class="image-right">
+                <p>Sharp thrust attacks from this Prosthetic Tool damage an enemy's Vitality and Posture, even through their guard.</p>
+                <p>The spear's spiral creates a corkscrew shockwave that gouges and rends as it penetrates.</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>   
+
+            <div class="pros-card">
+                <h2>Leaping Flame</h2>  
+                <img src="../images/Prosthetics/Spear/leaping.png" alt="" class="image-left">
+                <p>Bathe the tip of the Loaded Spear in flames making it a dangerously sharp spear and firearm.</p>
+                <p>A charged strike of the spear will knock enemies down and consume them in a fiery blaze.</p>       
+                <div class="emblems">Spirit Emblem Cost: 2</div>
+            </div>   
+        </div>
+    </div>
+
+        <div class="pros-card-container">
+            <h1>Divine Abduction
+                <button id="show8" onclick="toggleDiv(id8,show8,hide8,12)" class="show-hide">Show</button>
+                <button id="hide8" onclick="toggleDiv(id8,show8,hide8,0)" style="display:none ;" class="show-hide">Hide</button>
+            </h1>
+            <div id="id8" style="display: none;" class="hidden">
+            <div class="pros-card">
+                <h2>Divine Abduction</h2>  
+                <img src="../images/Prosthetics/Divine Abduction/simple.png" alt="" class="image-left">
+                <p>A Prosthetic Tool loaded with a large fan. Costs Spirit Emblems to use. Gathers and releases a gust of wind, forcing enemies caught by the vortex to turn around.</p>
+                <p>It is a mild sort of being spirited away that can be returned from quite quickly. However, it's said 
+                    that one can only return from being spirited away once, and if taken again, there is no coming back.</p>       
+                <div class="emblems">Spirit Emblem Cost: 3</div>
+            </div>               
+
+            <div class="pros-card">
+                <h2>Double Divine Abduction</h2>  
+                <img src="../images/Prosthetics/Divine Abduction/double.png" alt="" class="image-right">
+                <p>Gathers and releases a gust of wind, forcing enemies caught by the blast to turn around. Can be waved twice in succession. It is a mild sort of being spirited away that can be returned from quite quickly.</p>
+                <p>However, it's said that one can only return from being spirited away once, and if taken again, there is no coming back.</p>       
+                <div class="emblems">Spirit Emblem Cost: 3</div>
+            </div>   
+
+            <div class="pros-card">
+                <h2>Golden Vortex</h2>  
+                <img src="../images/Prosthetics/Spear/leaping.png" alt="" class="image-left">
+                <p>Gather illustrious golden wind and release it to force enemies caught up in the vortex to face the other way. Can be performed twice in a row.</p>
+                <p>Enemies that have been turned around drop items or money, to be considered "donations".</p>       
+                <div class="emblems">Spirit Emblem Cost: 4</div>
+            </div>   
+        </div>
+        </div>
+
+    
+        <div class="pros-card-container">
+            <h1>Sabimaru
+                <button id="show9" onclick="toggleDiv(id9,show9,hide9,12)" class="show-hide">Show</button>
+                <button id="hide9" onclick="toggleDiv(id9,show9,hide9,0)" style="display:none ;" class="show-hide">Hide</button>
+            </h1>
+            <div id="id9" style="display: none;" class="hidden">
+            <div class="pros-card">
+                <h2>Sabimaru</h2>  
+                <img src="../images/Prosthetics/Sabimaru/simple.png" alt="" class="image-left">
+                <p>A Prosthetic Tool made with the blade Sabimaru, allowing for a quick series of attacks together with the sword.</p>
+                <p>The blue, poisonous rust on Sabimaru's blade applies "Poison" status abnormality. Wielded in wars of old, the blade's blue rust was used to drive off inhuman Okami warrior women.
+                     Even now, it is likely to be effective against their descendants. lorem</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>   
+            
+            <div class="pros-card">
+                <h2>Improved Sabimaru</h2>  
+                <img src="../images/Prosthetics/Sabimaru/improved.png" alt="" class="image-right">
+                <p>Due to the revised mechanism, one can fluidly swap between two separate sets of attacks as desired.</p>
+                <p>Has a blue rust poison applied to the blade that eats into enemies' defense and inlicts "Poison" status abnormality.</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>   
+
+            <div class="pros-card">
+                <h2>Piercing Sabimaru</h2>  
+                <img src="../images/Prosthetics/Sabimaru/piercing.png" alt="" class="image-left">
+                <p> A further improved Sabimaru with a finely sharpened blade. Costs Spirit Emblems to use.</p>
+                <p>Repeated attacks with the newly sharpened edge of the blade will damage an enemy's Vitality and Posture, even through their guard.</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>   
+
+            <div class="pros-card">
+                <h2>Lazulite Sabimaru</h2>  
+                <img src="../images/Prosthetics/Sabimaru/lazulite.png" alt="" class="image-right">
+                <p>The combination of Lapis Lazuli and the rusted blue blade produces a poisonous mist with every swing.</p>
+                <p>Dissolving the Lapis Lazuli over the blade caused the ancient blue rust to bubble to the blade's surface.</p>       
+                <div class="emblems">Spirit Emblem Cost: 1</div>
+            </div>   
+        </div>
+        </div>
+
+        <div class="pros-card-container">
+            <h1>Finger Whistle
+                <button id="show10" onclick="toggleDiv(id10,show10,hide10,12)" class="show-hide">Show</button>
+                <button id="hide10" onclick="toggleDiv(id10,show10,hide10,0)" style="display:none ;" class="show-hide">Hide</button>
+            </h1>
+            <div id="id10" style="display: none;" class="hidden">
+            <div class="pros-card">
+                <h2>Finger Whistle</h2>  
+                <img src="../images/Prosthetics/Finger Whistle/simple.png" alt="" class="image-left">
+                <p> A Prosthetic Tool created by fitting a slender finger to the prosthetic. Costs Spirit Emblems to use.</p>
+                <p>Its sound will grab an enemy's attention and draw them to the whistle's location. By locking on to a target, only the targeted enemy will hear the whistle.</p>       
+                <div class="emblems">Spirit Emblem Cost: 3</div>
+            </div>  
+            
+            <div class="pros-card">
+                <h2>Mountain Echo</h2>  
+                <img src="../images/Prosthetics/Finger Whistle/mountain.png" alt="" class="image-right">
+                <p>A finger whistle that can create an echo effect. Costs Spirit Emblems to use.</p>
+                <p>Taking a deep breath before performing a whistle allows for the sound to be delayed.</p>       
+                <div class="emblems">Spirit Emblem Cost: 3</div>
+            </div>  
+
+            <div class="pros-card">
+                <h2>Malcontent</h2>  
+                <img src="../images/Prosthetics/Finger Whistle/malcontent.png" alt="" class="image-left">
+                <p>Finger Whistle reinforced with the Malcontent's ring. Costs Spirit Emblems to use. Can be used to drive beasts mad, and to torment apparition-type enemies.</p>
+                <p>"Kingfisher" is etched onto the ring. The Kingfisher's cry could be heard along the waterfront of Sunken Valley. Now, she cries no more.</p>       
+                <div class="emblems">Spirit Emblem Cost: 4</div>
+            </div>  
+            </div>
+        </div>
+
+        <div class="space"></div>
+
+        <div class="pros-card-container">
+            <h1>Mortal Blade</h1>
+         
+            <div class="pros-card"> 
+                <img src="../images/mortal/mortal.jpg" alt="" class="special-image">   
+                <p style="text-align: center;">THIS DOES NOT NEED AN INTRODUCTION</p>   
+                <div class="emblems">Spirit Emblem Cost: 3</div>
+            </div>  
+        </div>
+
+        <div class="space"></div>
+    </div>
+
+    <a href="../html/home.html"><button class="previous">Previous Page</button></a>
+    
+   
+    <script src="../js/prosthetic.js"></script>
+</body>
+</html>

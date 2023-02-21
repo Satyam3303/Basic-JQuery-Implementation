@@ -1,0 +1,113 @@
+body
+{
+  background: url('../images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.logo-container{
+  position: relative;
+}
+
+.top-logo{
+  width: 35%;
+  transform: translate(90%,0);
+}
+
+.large-text{
+  font-size: 100px;
+  position: relative;
+}
+
+.Introduction h1{
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  width: 15%;
+  transform: translate(280%,0);
+  border-radius: 50px;
+}
+
+.image-right{
+  height: 350px;
+  width: 250px;
+  float: right;
+  margin-right: 50px;
+  margin-left: 50px;
+  transition: all 0.3s;
+}
+.image-right:hover{
+  height:400px;
+  width: 300px;
+  transition: all 0.3s;
+}
+
+.Introduction p{
+  font-size: 30px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 70px;
+  margin-right: 50px;
+}
+
+.intro-cont p{
+  font-size: 30px;
+  color: white;
+  margin-left: 50px;
+  margin-top: 70px;
+  margin-right: 50px;
+}
+
+.intro-cont h1{
+  text-align: center;
+  color: white;
+  background-color: rgba(0,0,0,0.7);
+  width: 15%;
+  transform: translate(280%,0);
+  border-radius: 50px;
+}
+
+.top-menu{
+  position: sticky;
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  height: 50px;
+  top: 0;
+  width: 97%;
+  z-index: 1;
+  padding-left: 50px;
+  word-spacing: 1200px;
+}
+
+.top-menu a {
+  position: relative;
+  top: 13px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+  transition: all 0.3s;
+}
+
+.top-menu a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: all 0.3s;
+}
+
+.next{
+  background-color: rgba(0,0,0,0.7);
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  transition: all 0.3s;
+  float: right;
+}
+
+.next:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition: all 0.3s;
+}
